@@ -18,3 +18,9 @@ Areas<-pi*r^2
 
 ```
 
+
+```{r}
+lado<-3
+Areas_cuadrado<-lado^2
+
+```
