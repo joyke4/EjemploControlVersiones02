@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r}
+#calculo del aire de un circulo
 r<-0.5
 Areas<-pi*r^2
 
