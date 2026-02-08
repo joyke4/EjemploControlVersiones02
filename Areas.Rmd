@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 #calculo del aire de un circulo
 r<-0.5
+
 Areas<-pi*r^2
 
 ```
@@ -24,3 +25,13 @@ lado<-3
 Areas_cuadrado<-lado^2
 
 ```
+
+
+```{r}
+# Área de un trapecio de bases b, B y altura H
+area_trapecio <- function(b, B, H) {
+  (b + B) * H / 2
+}
+
+```
+
